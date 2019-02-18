@@ -1,0 +1,28 @@
+{
+  "name": "three-js-pre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "three": "^0.101.1",
+    "webpack": "^4.29.5",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot --content-base ./src",
+    "build": "webpack --node production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandarae/three-js-pre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandarae/three-js-pre/issues"
+  },
+  "homepage": "https://github.com/amandarae/three-js-pre#readme"
+}
